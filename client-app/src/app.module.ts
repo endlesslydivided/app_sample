@@ -12,7 +12,7 @@ import { ClientProxy, ClientsModule, Transport } from '@nestjs/microservices';
         options: {
           port: 6379,
           host: 'localhost',
-          retryAttempts: 1000,
+          retryAttempts: 1,
           retryDelay: 1000,
           keepAlive: 1000,
           autoResubscribe: true,
